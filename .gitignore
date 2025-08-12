@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# WhatsApp Web session/auth cache
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Environment files
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+
+# CSV/VCF data files (optional if you don't want to share contacts/groups)
+contacts.csv
+groups.csv
+contacts.vcf
+
+# Build/compiled files
+dist/
+build/
+
+# Lock files (optional, keep if you want deterministic installs)
+package-lock.json
+yarn.lock
